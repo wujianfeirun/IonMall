@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 3
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!-- <ion-button (click)="presentAlert()" expand="block" fill="outline">
+    弹出框
+  </ion-button> -->
+  <ion-button (click)="getRecords('get?name=吴先生')" expand="block" fill="outline" style="text-transform:none">
+    http-get
+  </ion-button>
+
+  <ion-button (click)="postRecords()" expand="block" fill="outline" style="text-transform:none">
+    http-post
+  </ion-button>
+
+</ion-content>
